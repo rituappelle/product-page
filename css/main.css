@@ -75,15 +75,23 @@ footer {
   flex: 1;
 }
 
-.button {
-  color: #fff;
-  background-color: #4a89ca;
-  border: 2px solid #4a89ca;
-  border-radius: 0;
-  text-decoration: none;
-  align-items: center;
+.button-container-div {
+  weight: 100px;
+  height: 100px;
 
+  display: grid;
 }
+
+button {
+  background-color: green;
+  color: #fff;
+  border: 1px solid;
+  padding: 10px;
+  width: 100px;
+  outline: none;
+  margin: auto;
+}
+
 
 .button:hover {
   background-color: #ffffff;
